@@ -1,0 +1,26 @@
+Hello App Review Team,
+
+We understand the concerns raised under Guideline 5.6 and have prepared a revised build focused on clarity, polish, and reviewability while preserving the app's intended security behavior.
+
+What changed in this build:
+- First launch now includes a guided setup explaining that users must define two 6-digit access keys.
+- The secure VPN-gated flow is clearly explained before access.
+- The VPN verification screen now shows clear status text and reviewable instructions instead of appearing blocked or incomplete.
+- Tool names and user-facing copy have been polished to avoid placeholder or internal wording.
+- The alternate browser mode starts on a neutral search page for easier review.
+- Icon-only controls now include accessibility labels and hints.
+- A privacy manifest and polished launch screen have been added.
+- App Review notes and a separate HTML guide are included to explain the review flow.
+
+Important review instructions:
+- On first launch, reviewers create two 6-digit keys.
+- Reviewers may choose any 6-digit main secure key.
+- Please set the alternate/private browser key as 123456.
+- To test the main secure flow, please connect any VPN on the review device first.
+- Use 123456 to test the alternate browser mode without the VPN-gated flow.
+
+The previous TestFlight-only app record from the former personal developer account has been removed. This Organization Developer account submission is the only version intended for distribution.
+
+We respectfully request review of this revised, polished submission.
+
+Thank you.

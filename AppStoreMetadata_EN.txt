@@ -1,0 +1,31 @@
+App Name
+BAOLEMA Secure
+
+Subtitle
+Secure browser with VPN verification
+
+Promotional Text
+BAOLEMA Secure combines protected browser access, user-defined keys, VPN-gated verification, highlighting, short links, PDF/QR sharing, and video link tools in a polished browsing workflow.
+
+Description
+BAOLEMA Secure is a secure browser utility designed for users who need controlled access to a defined web experience.
+
+The main browser flow verifies that a VPN connection is active before opening the protected website. Users create their own 6-digit access keys on first launch: one key for the secure VPN-gated flow and a second key for the alternate browser mode.
+
+Key features:
+- Secure browser access with VPN verification
+- User-defined 6-digit access keys
+- Alternate private browser mode
+- Text highlighting tools
+- Short link creation from pages or highlighted text
+- PDF sharing through QR workflow
+- Video link handling and subtitle tools
+- Privacy-focused local cleanup behavior
+
+BAOLEMA Secure is designed to provide a meaningful, reliable, and clearly guided browser experience while preserving its security requirements.
+
+Keywords
+secure browser, vpn verification, private browser, highlighting, short links, pdf qr, video links
+
+Review Notes Short Version
+On first launch, reviewers must create two 6-digit keys. They may choose any 6-digit main secure key and should set the alternate/private browser key as 123456. To test the main secure flow, please connect any VPN on the review device first; the app only allows access to the protected website when a VPN is active. Use 123456 to test the alternate browser mode without the VPN-gated flow.

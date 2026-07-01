@@ -1,0 +1,25 @@
+BAOLEMA Secure - App Review Notes
+
+On first launch, the app asks reviewers to create two 6-digit access keys.
+
+Recommended review setup:
+- Main secure access key: reviewer may choose any 6-digit number.
+- Alternate/private browser access key: please set 123456.
+
+Important:
+- The main secure flow requires an active VPN on the review device.
+- Please connect any VPN in iOS Settings before testing the main secure access flow.
+- The app verifies VPN status and network location before opening the protected browser.
+- To test browser navigation without the VPN-gated flow, use the alternate/private browser key 123456.
+
+Suggested review steps:
+1. Install and open the app.
+2. Create two 6-digit keys during first launch.
+3. Set the second/alternate browser key as 123456.
+4. Connect any VPN on the iOS review device.
+5. Enter the main key to test VPN-gated secure verification.
+6. Enter 123456 to test the alternate browser mode.
+7. In the browser, test navigation, text selection, highlighting, short link creation, PDF/QR sharing, and video link handling.
+
+Context:
+The previous TestFlight-only app record from the former personal developer account has been removed. This Organization Developer account submission is the only BAOLEMA Secure version intended for distribution.

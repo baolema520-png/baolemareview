@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BAOLEMA Secure - App Review Guide</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f5fb;
+      --card: #ffffff;
+      --ink: #191627;
+      --muted: #5d5970;
+      --primary: #6f4fb4;
+      --line: #dfd8ef;
+      --ok: #147a5b;
+      --warn: #9a5b00;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at 10% 0%, #e5dcfb 0, transparent 34%), var(--bg);
+      color: var(--ink);
+      line-height: 1.55;
+    }
+    main { max-width: 980px; margin: 0 auto; padding: 40px 20px 56px; }
+    header { padding: 28px; border-radius: 28px; background: linear-gradient(135deg, #ffffff, #eee9fb); border: 1px solid var(--line); box-shadow: 0 18px 50px rgba(52, 39, 88, .12); }
+    h1 { margin: 0 0 8px; font-size: clamp(32px, 5vw, 52px); letter-spacing: -.04em; }
+    h2 { margin: 0 0 14px; font-size: 24px; }
+    h3 { margin: 18px 0 8px; font-size: 18px; }
+    p { margin: 0 0 12px; }
+    .subtitle { color: var(--muted); font-size: 18px; max-width: 720px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin-top: 20px; }
+    .card { background: rgba(255,255,255,.92); border: 1px solid var(--line); border-radius: 22px; padding: 20px; box-shadow: 0 12px 36px rgba(52, 39, 88, .08); }
+    .badge { display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border-radius: 999px; background: #eee8fb; color: #563a91; font-weight: 700; font-size: 13px; }
+    ol, ul { padding-left: 22px; margin: 10px 0 0; }
+    li { margin: 7px 0; }
+    code { background: #eee8fb; color: #47306e; padding: 2px 6px; border-radius: 7px; }
+    .callout { border-left: 4px solid var(--primary); background: #f1ecfb; padding: 14px 16px; border-radius: 14px; color: #33284b; }
+    .warning { border-left-color: var(--warn); background: #fff5df; color: #4b3300; }
+    .ok { border-left-color: var(--ok); background: #eaf7f2; color: #123b2e; }
+    .screen { border-radius: 24px; background: #151421; color: white; padding: 16px; min-height: 360px; box-shadow: inset 0 0 0 1px rgba(255,255,255,.1); }
+    .phone-card { background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.16); border-radius: 20px; padding: 18px; margin: 18px 0; }
+    .pill { height: 44px; border-radius: 14px; background: rgba(255,255,255,.14); margin: 10px 0; display: flex; align-items: center; padding: 0 14px; color: rgba(255,255,255,.8); }
+    .button { height: 46px; border-radius: 14px; background: #9c7ae7; margin-top: 14px; display: grid; place-items: center; font-weight: 700; }
+    footer { margin-top: 28px; color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <span class="badge">App Review Guide</span>
+    <h1>BAOLEMA Secure</h1>
+    <p class="subtitle">A secure browser experience with VPN-gated access, user-defined access keys, alternate browser mode, text highlighting, short links, PDF/QR sharing, and video link handling.</p>
+  </header>
+
+  <section class="grid">
+    <div class="card">
+      <h2>What the app does</h2>
+      <p>BAOLEMA Secure opens its main protected browser only after the device has an active VPN and the network location is allowed. This is one of the app's core security functions.</p>
+      <p>The app also includes an alternate browser mode so review can test navigation without the VPN-gated route.</p>
+    </div>
+    <div class="card">
+      <h2>Important review setup</h2>
+      <div class="callout warning">
+        On a clean install, the app does not include default keys. Reviewers define two 6-digit keys during first launch.
+      </div>
+      <ul>
+        <li>Main secure key: reviewer may choose any 6-digit number.</li>
+        <li>Alternate browser key: please set <code>123456</code>.</li>
+        <li>Main secure flow requires any active VPN on the review device.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h2>Step-by-step review flow</h2>
+      <ol>
+        <li>Install and open BAOLEMA Secure.</li>
+        <li>When prompted, create two 6-digit keys.</li>
+        <li>Set the alternate browser key to <code>123456</code>.</li>
+        <li>Connect any VPN on the iOS review device.</li>
+        <li>Enter the main key to test secure verification.</li>
+        <li>After successful verification, the protected browser opens.</li>
+        <li>Use <code>123456</code> to test the alternate browser mode without the VPN-gated flow.</li>
+      </ol>
+    </div>
+    <div class="card">
+      <h2>Features to verify</h2>
+      <ul>
+        <li>User-defined access keys and key reset flow.</li>
+        <li>VPN-gated secure browser access.</li>
+        <li>Alternate private browser mode.</li>
+        <li>Text selection and highlighting tools.</li>
+        <li>Short link creation from pages or highlighted text.</li>
+        <li>PDF sharing via QR workflow.</li>
+        <li>Video link handling and subtitle tools.</li>
+        <li>Accessible labels on icon-only browser controls.</li>
+        <li>Privacy manifest and polished launch screen.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h2>First launch screen</h2>
+      <div class="screen">
+        <div class="phone-card">
+          <h3>Set Up Access</h3>
+          <p>BAOLEMA does not include default keys. The user creates a main key for the secure VPN flow and a second key for the alternate browser mode.</p>
+          <div class="pill">Main key (6 digits)</div>
+          <div class="pill">Alternate key (6 digits)</div>
+          <p style="font-size:13px;color:rgba(255,255,255,.75)">For App Review: use any main key and set the second key to 123456.</p>
+          <div class="button">Save Keys and Continue</div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <h2>VPN verification screen</h2>
+      <div class="screen">
+        <div class="phone-card">
+          <h3>Secure Verification</h3>
+          <p>The main route opens the defined website only when the device has an active VPN and an allowed network location.</p>
+          <div class="pill">Verifying VPN and secure location...</div>
+          <div class="pill">VPN status, network location, and security rules are checked before access.</div>
+          <div class="button">Retry</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Notes for Apple Review</h2>
+    <div class="callout ok">
+      The previous TestFlight-only app record from the former personal developer account has been removed. This Organization Developer account submission is the only version intended for distribution.
+    </div>
+    <p>This guide is intended to make the review path explicit so the app is not mistaken for an incomplete or inaccessible experience. All core security behavior remains active.</p>
+  </section>
+
+  <footer>
+    BAOLEMA Secure review package. Prepared for App Store review quality clarification.
+  </footer>
+</main>
+</body>
+</html>
